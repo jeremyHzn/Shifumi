@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta author="Jérémy & Jordan">
+    <title>Pierre feuille ciseaux</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <audio id="myAudio" loop>
+        <source src="musique/musique.ogg" type="audio/ogg">
+        ton navigateur ne lis pas les audios sorry
+    </audio>
+    <div id="options">
+        <img id="play" src="img/play.png" alt="bouton play">
+        <img id="pause" src="img/pause.png" alt="bouton pause"> 
+        <img id="dark" src="img/croissant-de-lune.png" alt="bouton ecran sombre">
+        <img id="light" src="img/soleil.png" alt="bouton écran clair">
+        <img id="avecPuit" src="img/puit.jpg" alt="jeu avec le puit">
+        <img id="sansPuit" src="img/sansPuit.png" alt="jeu avec le puit">
+    </div>
+    <div id="container">
+        
+        <h1 id="title">
+            Pierre feuille ciseaux <em id="Tpuit">Puit</em>
+        </h1>
+        
+        <div id="container_images">
+            <img src="" alt="" id="Pimg">
+            <img src="img/vs.png" alt="vs">
+            <img src="" alt="" id="Cimg">
+        </div>
+        <div id="container_buttons">
+            <img id="pierre" src="img/pierre.jpg" alt="pierre">
+            <img id="feuille" src="img/feuille.jpg" alt="pierre">
+            <img id="ciseaux" src="img/ciseaux.jpg" alt="pierre">
+            <img id="puit" src="img/puit.jpg" alt="puit">
+        </div>
+        <div id="container_header">
+            <p>Joueur =  <span id="Pscore">0</span></p>
+            
+            <p>Ordinateur = <span id="Cscore">0</span></p>
+        </div>
+        <div id="button">
+            <img id="reset" src="img/reset.png">
+        </div>
+    </div>
+    <footer>
+        ♪ pierre feuille papier ciseaux Instrumentale
+    </footer>
+ <script src="app.js"></script> 
+</body>
+</html>

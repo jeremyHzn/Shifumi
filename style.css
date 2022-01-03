@@ -1,0 +1,65 @@
+body{
+    overflow-y: hidden;
+}
+#container{
+    display: block;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%,-50%);
+}
+#title{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+#container_header{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+#container_images{
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+img{
+    width: 180px;
+    -webkit-user-drag: none;
+}
+#options> img{
+    display: inline-block;
+    margin: 5px 10px;
+    width: 40px;
+}
+#container_buttons{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+#container_buttons > img{
+    margin: 15px;
+}
+#container_buttons > button{
+    margin: 15px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    
+}
+div#button{
+    text-align: center;
+}
+#button >img{
+    width: 80px;
+}
+#puit{
+    display: none;
+}
+#Tpuit{
+    display: none;
+    color: orange;
+}
